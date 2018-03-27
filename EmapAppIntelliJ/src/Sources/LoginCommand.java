@@ -1,4 +1,3 @@
-package Sources;
 
 public class LoginCommand extends Command {
     public boolean logged;
@@ -6,11 +5,9 @@ public class LoginCommand extends Command {
     @Override
     public boolean execute() {
         return false;
-
     }
 
-    public boolean login(final String user, final String password) {
-        return user.equals("test") && password.equals("test");
+    public void login(final String user, final String password) {
     }
 
 }

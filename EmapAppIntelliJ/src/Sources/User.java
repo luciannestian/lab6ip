@@ -1,4 +1,3 @@
-package Sources;
 
 public class User {
     public String name;

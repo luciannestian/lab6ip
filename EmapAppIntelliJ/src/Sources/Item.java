@@ -7,13 +7,16 @@ public class Item {
 
     public int ID;
 
-    public void getName() {
+    public String getName() {
+        return Name;
     }
 
-    public void getPrice() {
+    public int getPrice() {
+        return Price;
     }
 
-    public void getId() {
+    public int getId() {
+        return ID;
     }
 
 }
