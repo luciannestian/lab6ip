@@ -2,7 +2,6 @@
 public class LoginCommand extends Command {
     public boolean logged;
 
-    @Override
     public boolean execute() {
         return false;
     }

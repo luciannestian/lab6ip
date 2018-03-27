@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/EmapAppIntelliJ.iml" filepath="$PROJECT_DIR$/EmapAppIntelliJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ip-lab06.iml" filepath="$PROJECT_DIR$/ip-lab06.iml" />
     </modules>
   </component>
 </project>
