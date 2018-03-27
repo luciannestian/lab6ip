@@ -1,3 +1,5 @@
+package Sources;
+
 import java.util.Scanner;
 
 public class Controller {
@@ -13,7 +15,12 @@ public class Controller {
 
         String password = getString(newscanner, "Please enter your password: ");
 
-        new LoginCommand().login(username, password);
+        if (new LoginCommand().login(username, password)) {
+            System.out.println("Sources.User logged in!");
+        }
+        else {
+            System.out.println("Access denied!");
+        }
     }
 
     public void getInstace() {

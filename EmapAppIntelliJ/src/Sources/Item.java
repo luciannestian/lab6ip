@@ -7,16 +7,21 @@ public class Item {
 
     public int ID;
 
-    public String getName() {
-        return Name;
+    public Item(int ID, int Price , String Name)
+    {
+        this.ID=ID;
+        this.Price=Price;
+        this.Name=Name;
     }
 
-    public int getPrice() {
-        return Price;
+
+    public void getName() {
     }
 
-    public int getId() {
-        return ID;
+    public void getPrice() {
+    }
+
+    public void getId() {
     }
 
 }
