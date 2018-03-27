@@ -15,13 +15,6 @@ public class ShoppingCart {
     public void checkOut() {
         new OrderCommand().execute(shoppingCartItem);
         shoppingCartItem.clear();
-        try{
-            if (this.Id <= 0);
-           }
-        catch (Exception exception)
-        {
-            System.out.println(exception + " You entered 0 or less");
-        }
     }
 
     public void remove(Item item) {
